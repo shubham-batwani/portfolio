@@ -1,0 +1,64 @@
+
+
+.sidenav {
+  height: 100%;
+  width: 12%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:rgb(14, 14, 14);
+  /* overflow-x: hidden; */
+  /* padding-top: 15%; */
+
+
+}
+
+.sidenav a {
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: #818181;
+  display: block;
+  /* padding-top: 10; */
+}
+
+
+
+/* .logo{
+  background-color: ;
+} */
+.l{
+  text-align: center;
+  margin-top: 0%;
+  padding-top: 10%;
+  margin-bottom: 20%;
+  padding-bottom: 60% ;
+  background-color: black;
+}
+
+.c
+{
+  background-color: rgba(45, 45, 46, 0.618);
+  text-align: center;
+  align-items: center;
+  margin-left: 15%;
+  width: 70%;
+  border-radius: 200%;
+}
+
+.line{
+  width: 85%;
+  color: #818181;
+
+}
+
+.active{
+  color:  rgb(245, 248, 247) !important;
+
+}
+
+.sidenav a:hover {
+  color:  rgb(83, 230, 207)
+}
+

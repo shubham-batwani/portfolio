@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+  background-color:rgba(0, 0, 0, 0.9);
+  padding: 0%;
+}
+
+.logo{
+  background-color: #f3ec78;
+  background-image: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 72%, rgba(252,176,69,1) 100%);
+  background-size: 100%;
+  background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-size: 6rem;
+  /* text-shadow: -10px 6px 50px #f9f9f8; */
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.active{
+  color: aquamarine;
+}
+

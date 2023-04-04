@@ -1,0 +1,36 @@
+div{
+  text-align: center;
+  align-items: center;
+  color: aliceblue;
+
+}
+
+.content{
+  /* align-items:flex-end; */
+  padding-left: 30%;
+  width: 40%;
+  text-overflow: clip;
+}
+
+h1{
+  font-size:60px;
+  color:rgb(83, 230, 207)
+}
+
+.container{
+  padding-top: 12%;
+}
+/* a{
+  padding-left: 50%;
+  z-index: 6;
+} */
+.logo{
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  gap: 10px 30px;
+  align-items: center;
+  /* width: 100%; */
+  align-content: center;
+  font-size: 0;
+}

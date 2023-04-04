@@ -1,0 +1,16 @@
+
+<div class="container">
+  <h1 class="heading">Projects</h1>
+
+  <div class="box">
+  <section *ngFor="let project of projectList" class="innerBox">
+
+    <span>
+      <div ><img src="{{project.image}}" alt="" class="imgs"></div>
+      <h1>{{project.name}}</h1>
+      <h6>{{project.description}}</h6>
+      <!-- <img src="/src/assets/icons8-speech-bubble-50.png" alt=""> -->
+    </span>
+  </section>
+</div>
+</div>
